@@ -1,0 +1,6 @@
+.header__container-list {
+    margin-bottom: 6px;
+}
+.header__container-list:first-child {
+    margin-right: 18px;
+}
