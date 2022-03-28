@@ -1,6 +1,12 @@
 .page {
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     width: 100%;
     font-family: 'Inter';
-    color: #FFFFFF;
+    color: #ffffff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }

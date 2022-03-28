@@ -1,0 +1,8 @@
+.places__list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px
+}

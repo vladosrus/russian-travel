@@ -2,3 +2,61 @@
     padding-top: 92px;
     margin: 0px auto;
 }
+.cover__background {
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 245px 0px;
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 0px auto;
+    position: relative;
+}
+/*.cover__background:hover {
+    opacity: 0.8;
+}*/
+
+
+
+
+/*.cover__overlay {
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(42, 44, 47, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}*/
+
+/*.cover__opacity {
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cover__opacity:before {
+    opacity: 0.8;
+}*/
+.cover__link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/*.cover__link::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #2a2c2fcc;
+    opacity: 0.8;
+
+    border: 1px solid red;
+}*/
+.cover__link:hover {
+    opacity: 0.8;
+}
