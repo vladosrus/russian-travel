@@ -269,7 +269,7 @@
 @media (max-width: 372px) {
     .places {
         margin: 0px;
-        padding: 64px 16px
+        padding: 64px 16px;
     }
     .place__image {
         width: 320px;
