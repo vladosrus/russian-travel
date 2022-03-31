@@ -7,3 +7,7 @@
     line-height: 1.17;
     text-decoration: none;
 }
+.header__lang-link:hover {
+    opacity: 0.8;
+    transition: opacity 0.4s linear;
+}
