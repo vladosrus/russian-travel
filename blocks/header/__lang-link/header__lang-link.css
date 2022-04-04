@@ -11,3 +11,9 @@
     opacity: 0.8;
     transition: opacity 0.4s linear;
 }
+
+@media (max-width: 752px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
+}

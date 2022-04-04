@@ -5,3 +5,14 @@
     padding: 20.69% 0px;
     position: relative;
 }
+
+@media (max-width: 768px) {
+    .cover__background {
+        padding: 14.97% 0px;
+    }
+}
+@media (max-width: 352px) {
+    .cover__background {
+        padding: 33px 0px;
+    }
+}

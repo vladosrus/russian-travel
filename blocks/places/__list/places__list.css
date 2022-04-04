@@ -6,3 +6,9 @@
     align-items: center;
     gap: 80px;
 }
+
+@media (max-width: 976px) {
+    .places__list {
+        gap: 73px;
+    }
+}

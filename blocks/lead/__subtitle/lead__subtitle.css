@@ -7,3 +7,17 @@
     margin: 0px 0px 64px;
     max-width: 640px;
 }
+
+@media (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 0px 0px 56px;
+    }
+}
+@media (max-width: 752px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin: 0px 0px 40px;
+    }
+}

@@ -2,3 +2,9 @@
     margin-bottom: 8px;
     width: 100%;
 }
+
+@media (max-width: 976px) {
+    .lead__image {
+        width: 100vw;
+    }
+}

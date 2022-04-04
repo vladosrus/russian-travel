@@ -7,3 +7,42 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
 }
+
+@media (min-width: 1280px) {
+    .photo-grid {
+        margin: 0px auto;
+    }
+}
+@media (max-width: 1024px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 14px;
+        max-width: 928px;
+        margin: 0px auto;
+    }
+}
+@media (max-width: 976px) {
+    .photo-grid {
+        margin: 0px 24px;
+    }
+}
+@media (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
+        padding-top: 88px;
+        max-width: 720px;
+        margin: 0px auto;
+    }
+}
+@media (max-width: 752px) {
+    .photo-grid {
+        margin: 0px 16px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+        gap: 12px;
+        padding-top: 64px;
+    }
+}

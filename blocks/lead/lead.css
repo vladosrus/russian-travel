@@ -6,3 +6,26 @@
     margin: 0px auto;
     max-width: 984px;
 }
+
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        padding-top: 48px;
+    }
+}
+@media (max-width: 976px) {
+    .lead {
+        margin: 0px 24px;
+    }
+}
+@media (max-width: 768px) {
+    .lead {
+        max-width: 720px;
+        margin: 0px auto;
+    }  
+}
+@media (max-width: 752px) {
+    .lead {
+        margin: 0px 16px;
+    }
+}

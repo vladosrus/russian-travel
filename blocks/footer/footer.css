@@ -6,3 +6,34 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 1280px) {
+    .footer {
+        margin: 0px auto;
+    }
+}
+@media (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+        margin: 0px auto;
+    }
+}
+@media (max-width: 976px) {
+    .footer {
+        margin: 0px 24px;
+    }
+}
+@media (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+        margin: 0px auto;
+        padding-top: 88px;
+    }
+}
+@media (max-width: 752px) {
+    .footer {
+        margin: 0px 16px;
+        flex-direction: column;
+        padding-top: 64px;
+    }
+}

@@ -3,3 +3,26 @@
     max-width: 984px;
     margin: 0px auto;
 }
+
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+@media (max-width: 976px) {
+    .intro {
+        margin: 0px 24px;
+    }
+}
+@media (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        margin: 0px auto;
+    }
+}
+@media (max-width: 752px) {
+    .intro {
+        padding-top: 64px;
+        margin: 0px 16px;
+    }
+}

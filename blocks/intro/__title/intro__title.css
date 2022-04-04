@@ -6,3 +6,10 @@
     margin: 0px 0px 40px;
     max-width: 690px;
 }
+
+@media (max-width: 752px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 1.09;
+    }
+}

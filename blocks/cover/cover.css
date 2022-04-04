@@ -3,3 +3,9 @@
     margin: 0px auto;
     max-width: 1184px;
 }
+
+@media (max-width: 768px) {
+    .cover {
+        padding-top: 90px;
+    }
+}

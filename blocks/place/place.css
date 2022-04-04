@@ -9,3 +9,31 @@
         "heading url"
         "image paragraphs";
 }
+
+@media (max-width: 1024px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        grid-template-rows: 1fr 440px;
+        column-gap: 32px;
+    }
+}
+@media (max-width: 976px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        grid-template-rows: 1fr auto;
+        column-gap: 28px;
+    }
+}
+@media (max-width: 752px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        row-gap: 32px;
+        column-gap: 0px;
+        grid-template-areas:
+        "heading"
+        "url"
+        "image"
+        "paragraphs";
+    }
+}

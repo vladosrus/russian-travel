@@ -4,3 +4,22 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 976px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+}
+@media (max-width: 372px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+    }
+}
+@media (max-width: 352px) {
+    .place__image {
+        margin: 0px -16px;
+        width: 100vw;
+    }
+}

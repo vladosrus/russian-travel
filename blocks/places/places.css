@@ -3,3 +3,33 @@
     margin: 0 auto;
     max-width: 984px;
 }
+
+@media (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+}
+@media (max-width: 976px) {
+    .places {
+        margin: 0px 24px;
+    }
+}
+@media (max-width: 768px) {
+    .places {
+        padding-top: 88px;
+        max-width: 720px;
+        margin: 0px auto;
+    }
+}
+@media (max-width: 752px) {
+    .places {
+        margin: 0px 16px;
+        padding-top: 64px;
+    }
+}
+@media (max-width: 372px) {
+    .places {
+        margin: 0px;
+        padding: 64px 16px;
+    }
+}
