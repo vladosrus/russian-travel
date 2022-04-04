@@ -1,11 +1,32 @@
 .cover {
-    padding-top: 92px;
-    margin: 0px auto;
-    max-width: 1184px;
+    margin: 92px auto 0px;
+    width: 100vw;
+    min-height: 640px;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+}
+
+@media (min-width: 1280px) {
+    .cover {
+        max-width: 1184px;
+        min-height: 740px;
+    }
+}
+@media (max-width: 1023px) {
+    .cover {
+        min-height: 480px;
+    }
 }
 
 @media (max-width: 768px) {
     .cover {
-        padding-top: 90px;
+        margin: 90px auto 0px;
+    }
+}
+@media (max-width: 752px) {
+    .cover {
+        min-height: 200px;
+        margin: 66px auto 0px;
     }
 }

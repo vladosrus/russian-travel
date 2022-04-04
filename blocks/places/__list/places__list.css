@@ -9,6 +9,11 @@
 
 @media (max-width: 976px) {
     .places__list {
-        gap: 73px;
+        gap: 72px;
+    }
+}
+@media (max-width: 752px) {
+    .places__list {
+        gap: 50px;
     }
 }
