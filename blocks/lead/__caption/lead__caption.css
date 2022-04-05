@@ -8,3 +8,14 @@
     margin: 0px;
     align-self: baseline;
 }
+
+@media (max-width: 976px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+}
+@media (max-width: 752px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
+}
