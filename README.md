@@ -1,4 +1,5 @@
 ![CD Action](https://github.com/vladosrus/russian-travel/actions/workflows/actions.yml/badge.svg?event=push)
+
 # Проект: «Путешествия по России»
 
 ### Описание проекта
@@ -10,5 +11,5 @@
 
 **GitHub Pages**
 
-* Посмотреть, как выглядит сайт можно [здесь](https://vladosrus.github.io/russian-travel/)
+* Посмотреть, как выглядит сайт можно [здесь](https://vladislav-chikov-projects.ru/russian-travel/)
 
