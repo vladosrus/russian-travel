@@ -1,0 +1,37 @@
+name: CD Action
+run-name: CD Action in work
+
+on: # запускать процессы при push и pull_request в ветку main
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  job: # эта часть отвечает за развёртывание приложения
+    name: Continuous Deployment
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ["21.x"]
+    steps:
+      - name: Проверяем код репозитория
+        uses: actions/checkout@v4
+
+      - name: Настраиваем Node.js версии ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Устанавливаем SSH ключи
+        run: |
+          set -eu
+          mkdir "$HOME/.ssh"
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" >> "$HOME/.ssh/id_rsa"
+          chmod 600 "$HOME/.ssh/id_rsa"
+
+      - name: Отправляем код на сервер
+        run: scp -i $HOME/.ssh/id_rsa -o StrictHostKeyChecking=no -r /home/runner/work/russian-travel/russian-travel/* ${{ secrets.DEPLOY_SERVER_INFO }}
